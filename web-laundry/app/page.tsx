@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from "next/navigation";
 import { motion } from 'framer-motion';
 import { Sparkles, Timer, Droplets, Award, ArrowRight, Zap, Atom, Palette } from 'lucide-react';
-import { Button } from '@/web-laundry/components/ui/button';
-import { Card, CardContent } from '@/web-laundry/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Card, CardContent } from '@/components/ui/card';
 
 export default function GlandryHomepage() {
   const [scrolled, setScrolled] = useState(false);

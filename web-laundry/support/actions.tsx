@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { Input } from "@/web-laundry/components/ui/input";
-import { Button } from "@/web-laundry/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/web-laundry/components/ui/card";
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/web-laundry/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface CreateCardProps {
   title?: string;

@@ -3,11 +3,11 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Edit, Eye, Trash2 } from "lucide-react";
-import { useCustomers } from "@/web-laundry/hooks/use-customers";
-import { Action, Column, DataTable } from "@/web-laundry/components/app-table";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/web-laundry/components/ui/dialog";
-import { CreateCard, UpdateCard, DeleteConfirm, DetailCard } from "@/web-laundry/support/actions";
-import LaundryLoading from "@/web-laundry/components/loading";
+import { useCustomers } from "@/hooks/use-customers";
+import { Action, Column, DataTable } from "@/components/app-table";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { CreateCard, UpdateCard, DeleteConfirm, DetailCard } from "@/support/actions";
+import LaundryLoading from "@/components/loading";
 
 export default function AppCustomers() {
   const {

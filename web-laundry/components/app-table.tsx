@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { Search, Plus, MoreVertical } from 'lucide-react';
-import { Button } from '@/web-laundry/components/ui/button';
-import { Input } from '@/web-laundry/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import {
   Table,
   TableBody,
@@ -11,13 +11,13 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/web-laundry/components/ui/table';
+} from '@/components/ui/table';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/web-laundry/components/ui/dropdown-menu';
+} from '@/components/ui/dropdown-menu';
 
 
 interface Column<T> {

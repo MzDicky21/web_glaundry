@@ -13,8 +13,8 @@ import {
   SidebarMenuButton,
   SidebarHeader,
   SidebarFooter,
-} from "@/web-laundry/components/ui/sidebar";
-import { menuItems } from '@/web-laundry/support/menu';
+} from "@/components/ui/sidebar";
+import { menuItems } from '@/support/menu';
 
 
 
